@@ -9,12 +9,45 @@
                 margin-left: auto;
                 margin-right: auto;
             }
+
+            body {
+                background-color: rgb(78, 7, 7);
+            }
+
+            h1 {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: white;
+                text-align: center;
+            }
+
+            .button {
+                display: inline-block;
+                background-color: #28a745;
+                color: white;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+                border-radius: 5px;
+                text-align: center;
+                transition: background-color 0.3s ease;
+            }
+
+            .button:hover {
+                background-color: #218838;
+            }
+
+            .button-container {
+                text-align: center;
+                margin-top: 20px;
+            }
         </style>
     </head>
-    <body style="background-color:rgb(78, 7, 7);"></body>
     <body>
         <img src="/images/leakclient.png" width="200" height="75" alt="LeakClient Logo" class="center">
-        <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white;">IT UPDATED!</h1>
-        <a href="./index.html">Go to the same one but UNNNNNmodified</a>
+        <h1>IT UPDATED!</h1>
+        <div class="button-container">
+            <a href="./index.html" class="button">Go to the same one but UNmodified</a>
+        </div>
     </body>
 </html>
